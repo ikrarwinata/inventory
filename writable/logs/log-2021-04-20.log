@@ -1,0 +1,355 @@
+CRITICAL - 2021-04-20 02:07:52 --> Undefined variable: action
+#0 E:\LocalServer\inventory\app\Views\administrator\operation\pricing.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\LocalServer\\...', 24, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/O...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(81): view('administrator/O...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->pricing()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-20 02:34:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL' at line 1 in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE master S...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE master S...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE master S...')
+#3 E:\LocalServer\inventory\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('UPDATE master S...')
+#4 E:\LocalServer\inventory\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(89): CodeIgniter\Model->__call('query', Array)
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->pricing_action()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-20 02:34:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'NULL' at line 1
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE master S...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE master S...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE master S...')
+#3 E:\LocalServer\inventory\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('UPDATE master S...')
+#4 E:\LocalServer\inventory\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(89): CodeIgniter\Model->__call('query', Array)
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->pricing_action()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-20 03:32:02 --> Class 'App\Controllers\administrator\Penjualan_model' not found
+#0 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('penjualan')
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-04-20 03:35:10 --> mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`inventory`.`master`, CONSTRAINT `fkKategoriMaster` FOREIGN KEY (`kategori`) REFERENCES `inventory`.`kategori_master` (`id`)) in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('TRUNCATE katego...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE katego...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE katego...')
+#3 E:\LocalServer\inventory\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('TRUNCATE katego...')
+#4 E:\LocalServer\inventory\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 E:\LocalServer\inventory\app\Models\Kategori_master_model.php(89): CodeIgniter\Model->__call('query', Array)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(139): App\Models\Kategori_master_model->truncate()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('kategori')
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 03:35:10 --> Cannot truncate a table referenced in a foreign key constraint (`inventory`.`master`, CONSTRAINT `fkKategoriMaster` FOREIGN KEY (`kategori`) REFERENCES `inventory`.`kategori_master` (`id`))
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('TRUNCATE katego...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE katego...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE katego...')
+#3 E:\LocalServer\inventory\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('TRUNCATE katego...')
+#4 E:\LocalServer\inventory\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 E:\LocalServer\inventory\app\Models\Kategori_master_model.php(89): CodeIgniter\Model->__call('query', Array)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(139): App\Models\Kategori_master_model->truncate()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('kategori')
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 03:35:49 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 E:\LocalServer\inventory\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#1 E:\LocalServer\inventory\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(NULL, false)
+#2 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(139): CodeIgniter\BaseModel->delete()
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('kategori')
+#4 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-04-20 03:37:45 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`master`, CONSTRAINT `fkKategoriMaster` FOREIGN KEY (`kategori`) REFERENCES `kategori_master` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM kat...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM kat...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM kat...')
+#3 E:\LocalServer\inventory\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('DELETE FROM kat...')
+#4 E:\LocalServer\inventory\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(139): CodeIgniter\Model->__call('query', Array)
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('kategori')
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-20 03:37:45 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`master`, CONSTRAINT `fkKategoriMaster` FOREIGN KEY (`kategori`) REFERENCES `kategori_master` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM kat...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM kat...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM kat...')
+#3 E:\LocalServer\inventory\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('DELETE FROM kat...')
+#4 E:\LocalServer\inventory\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(139): CodeIgniter\Model->__call('query', Array)
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('kategori')
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-04-20 03:39:49 --> mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`inventory`.`pembelian`, CONSTRAINT `fkMasterBeli` FOREIGN KEY (`id_master`) REFERENCES `inventory`.`master` (`id`)) in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('TRUNCATE master')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE master')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE master')
+#3 E:\LocalServer\inventory\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('TRUNCATE master')
+#4 E:\LocalServer\inventory\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 E:\LocalServer\inventory\app\Models\Master_model.php(97): CodeIgniter\Model->__call('query', Array)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(143): App\Models\Master_model->truncate()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('kategori')
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 03:39:49 --> Cannot truncate a table referenced in a foreign key constraint (`inventory`.`pembelian`, CONSTRAINT `fkMasterBeli` FOREIGN KEY (`id_master`) REFERENCES `inventory`.`master` (`id`))
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('TRUNCATE master')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE master')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE master')
+#3 E:\LocalServer\inventory\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('TRUNCATE master')
+#4 E:\LocalServer\inventory\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 E:\LocalServer\inventory\app\Models\Master_model.php(97): CodeIgniter\Model->__call('query', Array)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(143): App\Models\Master_model->truncate()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('kategori')
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-04-20 03:42:18 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`master`, CONSTRAINT `fkKategoriMaster` FOREIGN KEY (`kategori`) REFERENCES `kategori_master` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ka...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\LocalServer\inventory\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(140): CodeIgniter\BaseModel->delete(Array)
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('kategori')
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 03:42:18 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`master`, CONSTRAINT `fkKategoriMaster` FOREIGN KEY (`kategori`) REFERENCES `kategori_master` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ka...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ka...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ka...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ka...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\LocalServer\inventory\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(140): CodeIgniter\BaseModel->delete(Array)
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('kategori')
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-04-20 03:47:04 --> mysqli_sql_exception: Cannot truncate a table referenced in a foreign key constraint (`inventory`.`pembelian`, CONSTRAINT `fkMasterBeli` FOREIGN KEY (`id_master`) REFERENCES `inventory`.`master` (`id`)) in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('TRUNCATE master')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE master')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE master')
+#3 E:\LocalServer\inventory\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('TRUNCATE master')
+#4 E:\LocalServer\inventory\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 E:\LocalServer\inventory\app\Models\Master_model.php(97): CodeIgniter\Model->__call('query', Array)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(156): App\Models\Master_model->truncate()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('master')
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 03:47:04 --> Cannot truncate a table referenced in a foreign key constraint (`inventory`.`pembelian`, CONSTRAINT `fkMasterBeli` FOREIGN KEY (`id_master`) REFERENCES `inventory`.`master` (`id`))
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('TRUNCATE master')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('TRUNCATE master')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('TRUNCATE master')
+#3 E:\LocalServer\inventory\system\BaseModel.php(1772): CodeIgniter\Database\BaseConnection->query('TRUNCATE master')
+#4 E:\LocalServer\inventory\system\Model.php(832): CodeIgniter\BaseModel->__call('query', Array)
+#5 E:\LocalServer\inventory\app\Models\Master_model.php(97): CodeIgniter\Model->__call('query', Array)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(156): App\Models\Master_model->truncate()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('master')
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-04-20 03:49:15 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`pembelian`, CONSTRAINT `fkVendorBeli` FOREIGN KEY (`id_vendor`) REFERENCES `vendor` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE) in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ve...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ve...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ve...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ve...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\LocalServer\inventory\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(166): CodeIgniter\BaseModel->delete(Array)
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('vendor')
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 03:49:15 --> Cannot delete or update a parent row: a foreign key constraint fails (`inventory`.`pembelian`, CONSTRAINT `fkVendorBeli` FOREIGN KEY (`id_vendor`) REFERENCES `vendor` (`id`) ON DELETE NO ACTION ON UPDATE CASCADE)
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('DELETE FROM `ve...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ve...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ve...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(2864): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ve...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(422): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\LocalServer\inventory\system\BaseModel.php(1009): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(166): CodeIgniter\BaseModel->delete(Array)
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('vendor')
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 03:55:22 --> Undefined property: stdClass::$id
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(177): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 177, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->truncate_action('users')
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-20 04:06:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) AS total
+FROM `master_view`
+WHERE kadaluarsa <= 1621533599
+ LIMIT 1' at line 1 in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT SUM(*) A...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(*) A...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(*) A...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT SUM(*) A...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\LocalServer\inventory\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Dashboard.php(86): CodeIgniter\BaseModel->first()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Dashboard->index()
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Dashboard))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 04:06:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) AS total
+FROM `master_view`
+WHERE kadaluarsa <= 1621533599
+ LIMIT 1' at line 1
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT SUM(*) A...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(*) A...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(*) A...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT SUM(*) A...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\LocalServer\inventory\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Dashboard.php(86): CodeIgniter\BaseModel->first()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Dashboard->index()
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Dashboard))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2021-04-20 04:06:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) AS total
+FROM `master_view`
+WHERE kadaluarsa < 1621533599
+ LIMIT 1' at line 1 in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT SUM(*) A...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(*) A...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(*) A...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT SUM(*) A...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\LocalServer\inventory\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Dashboard.php(86): CodeIgniter\BaseModel->first()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Dashboard->index()
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Dashboard))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 04:06:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) AS total
+FROM `master_view`
+WHERE kadaluarsa < 1621533599
+ LIMIT 1' at line 1
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT SUM(*) A...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(*) A...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(*) A...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT SUM(*) A...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\LocalServer\inventory\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Dashboard.php(86): CodeIgniter\BaseModel->first()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Dashboard->index()
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Dashboard))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 04:27:09 --> Undefined property: stdClass::$username
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(302): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 302, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->kadaluarsa_truncate()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-20 04:33:35 --> Call to a member function get_by_id() on null
+#0 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->kadaluarsa_delete('ASST1618685294')
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-20 04:34:15 --> Call to a member function get_by_id() on null
+#0 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->kadaluarsa_delete('ASST1618685294')
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-20 04:34:51 --> Call to a member function get_by_id() on null
+#0 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->kadaluarsa_delete('ASST1618685294')
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-20 04:35:41 --> Call to a member function get_by_id() on null
+#0 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->kadaluarsa_delete('ASST1618685294')
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-20 04:36:41 --> Call to a member function get_by_id() on null
+#0 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->kadaluarsa_delete('ASST1618685294')
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-20 04:45:03 --> Trying to get property 'table' of non-object
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Operation.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\LocalServer\\...', 245, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->kadaluarsa()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-04-20 04:49:04 --> mysqli_sql_exception: Column 'harga' in where clause is ambiguous in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\LocalServer\inventory\system\BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(224): CodeIgniter\BaseModel->paginate(20)
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history()
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-04-20 04:49:04 --> Column 'harga' in where clause is ambiguous
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT COUNT(*)...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(1966): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(570): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 E:\LocalServer\inventory\system\BaseModel.php(1140): CodeIgniter\Model->countAllResults(false)
+#6 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(224): CodeIgniter\BaseModel->paginate(20)
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history()
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}

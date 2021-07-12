@@ -1,0 +1,147 @@
+CRITICAL - 2021-04-16 20:28:16 --> Undefined variable: PageAttribute
+#0 E:\LocalServer\inventory\app\Views\login.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\LocalServer\\...', 43, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\Home.php(37): view('login')
+#5 E:\LocalServer\inventory\app\Controllers\Home.php(33): App\Controllers\Home->login()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->index()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-16 20:32:54 --> Class 'App\Models\Users_master_model' not found
+#0 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->login_auth()
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-16 20:37:27 --> Undefined property: stdClass::$keepalive
+#0 E:\LocalServer\inventory\app\Controllers\Home.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 49, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->login_auth()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 20:38:58 --> Undefined index: keepalive
+#0 E:\LocalServer\inventory\app\Controllers\Home.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 53, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->login_auth()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 20:39:24 --> Undefined index: keepalive
+#0 E:\LocalServer\inventory\app\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 54, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->login_auth()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 20:39:34 --> Undefined index: keepalive
+#0 E:\LocalServer\inventory\app\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 54, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->login_auth()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 20:39:56 --> Undefined index: keepalive
+#0 E:\LocalServer\inventory\app\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 54, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->login_auth()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 20:40:18 --> Undefined index: keepalive
+#0 E:\LocalServer\inventory\app\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 54, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->login_auth()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 21:03:00 --> Undefined index: locale
+#0 E:\LocalServer\inventory\app\Views\login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 48, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\Home.php(37): view('login', Array)
+#5 E:\LocalServer\inventory\app\Controllers\Home.php(67): App\Controllers\Home->login()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->logout()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-16 21:03:38 --> Undefined index: locale
+#0 E:\LocalServer\inventory\app\Views\login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 48, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\Home.php(37): view('login', Array)
+#5 E:\LocalServer\inventory\app\Controllers\Home.php(68): App\Controllers\Home->login()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->logout()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-16 21:04:42 --> Undefined index: locale
+#0 E:\LocalServer\inventory\app\Views\login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 48, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\Home.php(37): view('login', Array)
+#5 E:\LocalServer\inventory\app\Controllers\Home.php(74): App\Controllers\Home->login()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->logout()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-16 21:04:55 --> Undefined index: locale
+#0 E:\LocalServer\inventory\app\Views\login.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 48, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\Home.php(37): view('login', Array)
+#5 E:\LocalServer\inventory\app\Controllers\Home.php(74): App\Controllers\Home->login()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->logout()
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-04-16 21:07:57 --> Undefined index: locale
+#0 E:\LocalServer\inventory\app\Controllers\Home.php(59): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 59, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->login_auth()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 21:34:43 --> Undefined index: locale
+#0 E:\LocalServer\inventory\app\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 62, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->login_auth()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-16 21:35:02 --> Undefined index: locale
+#0 E:\LocalServer\inventory\app\Views\login.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 51, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\Home.php(40): view('login', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\Home->login()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-16 23:16:57 --> syntax error, unexpected ')'
+#0 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/_...', Array, true)
+#2 E:\LocalServer\inventory\app\Views\administrator\_templates\Container.php(10): view('administrator/_...')
+#3 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#4 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 E:\LocalServer\inventory\system\View\View.php(236): CodeIgniter\View\View->render('administrator/_...', Array, true)
+#6 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/d...', Array, true)
+#7 E:\LocalServer\inventory\app\Controllers\administrator\Dashboard.php(68): view('administrator/d...', Array)
+#8 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Dashboard->index()
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Dashboard))
+#10 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}

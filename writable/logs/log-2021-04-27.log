@@ -1,0 +1,89 @@
+ERROR - 2021-04-27 22:16:35 --> mysqli_sql_exception: Duplicate entry 'PCHS1619536515' for key 'PRIMARY' in C:\wamp64\www\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pe...')
+#1 C:\wamp64\www\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\wamp64\www\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\wamp64\www\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\wamp64\www\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\inventory\app\Controllers\administrator\Pembelian.php(272): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Pembelian->create_action()
+#9 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Pembelian))
+#10 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-27 22:16:35 --> Duplicate entry 'PCHS1619536515' for key 'PRIMARY'
+#0 C:\wamp64\www\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pe...')
+#1 C:\wamp64\www\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\wamp64\www\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\wamp64\www\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\wamp64\www\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\inventory\app\Controllers\administrator\Pembelian.php(272): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Pembelian->create_action()
+#9 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Pembelian))
+#10 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-04-27 23:31:17 --> fopen(http://localhost/inventory/public/writable/uploads/product/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\wamp64\\www\\i...', 186, Array)
+#1 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(336): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1619541077_2e94...')
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->create_action()
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 23:32:15 --> fopen(http://localhost/inventory/public/writable/uploads/product/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\wamp64\\www\\i...', 186, Array)
+#1 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(336): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1619541135_01a9...')
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->create_action()
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 23:32:46 --> fopen(http://localhost/inventory/public/writable/uploads/product/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\wamp64\\www\\i...', 186, Array)
+#1 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(336): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1619541166_20d6...')
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->create_action()
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 23:33:32 --> fopen(http://localhost/inventory/public/writable/uploads/product/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\wamp64\\www\\i...', 186, Array)
+#1 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(336): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1619541212_5dd8...')
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->create_action()
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 23:34:07 --> fopen(http://localhost/inventory/public/writable/uploads/product/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\wamp64\\www\\i...', 186, Array)
+#1 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(336): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1619541247_7920...')
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->create_action()
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-27 23:34:33 --> fopen(http://localhost/inventory/public/writable/uploads/product/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\wamp64\\www\\i...', 186, Array)
+#1 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(186): fopen('http://localhos...', 'x+')
+#2 C:\wamp64\www\inventory\system\HTTP\Files\UploadedFile.php(134): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(337): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1619541273_5c2e...')
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->create_action()
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

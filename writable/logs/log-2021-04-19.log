@@ -1,0 +1,450 @@
+CRITICAL - 2021-04-19 01:51:09 --> syntax error, unexpected ''vendors/Chart.js/dist/Chart.m' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 E:\LocalServer\inventory\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('administrator/D...')
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('administrator/D...')
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 01:51:25 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 E:\LocalServer\inventory\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('administrator/D...')
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('administrator/D...')
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 02:48:13 --> Trying to get property 'total' of non-object
+#0 E:\LocalServer\inventory\app\Views\administrator\dashboard.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'E:\\LocalServer\\...', 95, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/d...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Dashboard.php(130): view('administrator/d...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Dashboard->index()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Dashboard))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 11:16:23 --> Undefined index: locale
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Pembelian.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'E:\\LocalServer\\...', 44, Array)
+#1 E:\LocalServer\inventory\app\Controllers\administrator\Pembelian.php(23): App\Controllers\administrator\Pembelian->defaultPageAttribute()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(908): App\Controllers\administrator\Pembelian->__construct()
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#4 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-19 13:00:47 --> Class 'App\Controllers\administrator\Berita_excel' not found
+#0 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Vendor->to_excel()
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Vendor))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-19 13:59:12 --> Undefined property: stdClass::$operator
+#0 E:\LocalServer\inventory\app\Models\Master_history_excel.php(134): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 134, Array)
+#1 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(560): App\Models\Master_history_excel->export()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history_excel()
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#4 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-04-19 14:26:15 --> Call to undefined method stdClass::first()
+#0 E:\LocalServer\inventory\app\Controllers\BaseController.php(51): App\Controllers\administrator\Dashboard->onLoad()
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(909): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 14:26:52 --> Undefined property: App\Controllers\administrator\Vendor::$load
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Vendor.php(400): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 400, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Vendor->to_word()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Vendor))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 14:26:54 --> Undefined property: App\Controllers\administrator\Vendor::$load
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Vendor.php(400): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 400, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Vendor->to_word()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Vendor))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 14:27:00 --> Undefined property: App\Controllers\administrator\Vendor::$load
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Vendor.php(400): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 400, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Vendor->to_word()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Vendor))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 14:27:30 --> Undefined property: App\Controllers\administrator\Vendor::$load
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Vendor.php(400): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 400, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Vendor->to_word()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Vendor))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 14:27:33 --> Undefined property: App\Controllers\administrator\Vendor::$load
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Vendor.php(400): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 400, Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Vendor->to_word()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Vendor))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 15:12:11 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in E:\LocalServer\inventory\system\Model.php on line 836
+#0 E:\LocalServer\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('timestamps', NULL)
+#1 E:\LocalServer\inventory\app\Models\Penjualan_model.php(91): CodeIgniter\Model->__call('orderBy', Array)
+#2 E:\LocalServer\inventory\app\Controllers\administrator\Penjualan.php(401): App\Models\Penjualan_model->sort()
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Penjualan->print_all()
+#4 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Penjualan))
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 16:07:41 --> Undefined variable: data_penjualan
+#0 E:\LocalServer\inventory\app\Views\administrator\pembelian\pembelian_print.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\LocalServer\\...', 55, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/p...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Pembelian.php(414): view('administrator/p...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Pembelian->print_all()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Pembelian))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:07:45 --> Undefined variable: data_penjualan
+#0 E:\LocalServer\inventory\app\Views\administrator\pembelian\pembelian_print.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\LocalServer\\...', 55, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/p...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Pembelian.php(414): view('administrator/p...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Pembelian->print_all()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Pembelian))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:07:51 --> Undefined variable: data_penjualan
+#0 E:\LocalServer\inventory\app\Views\administrator\pembelian\pembelian_print.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\LocalServer\\...', 55, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/p...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Pembelian.php(414): view('administrator/p...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Pembelian->print_all()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Pembelian))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:22:59 --> Undefined property: stdClass::$id_master
+#0 E:\LocalServer\inventory\app\Views\administrator\penjualan\penjualan_word.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 58, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/p...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(560): view('administrator/p...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->to_word()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:23:01 --> Undefined property: stdClass::$id_master
+#0 E:\LocalServer\inventory\app\Views\administrator\penjualan\penjualan_word.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 58, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/p...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(560): view('administrator/p...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->to_word()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:23:07 --> Undefined property: stdClass::$id_master
+#0 E:\LocalServer\inventory\app\Views\administrator\penjualan\penjualan_word.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 58, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/p...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(560): view('administrator/p...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->to_word()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:23:38 --> Invalid file: administrator/master/master_word.php
+#0 E:\LocalServer\inventory\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('administrator/m...')
+#1 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#2 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(559): view('administrator/m...', Array)
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->to_word()
+#4 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-19 16:30:43 --> Call to undefined method App\Models\Master_view_excel::sort
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(556): CodeIgniter\Model->__call('sort', Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->to_word()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 16:30:45 --> Call to undefined method App\Models\Master_view_excel::sort
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(556): CodeIgniter\Model->__call('sort', Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->to_word()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 16:31:47 --> Call to undefined method App\Models\Master_view_excel::sort
+#0 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(556): CodeIgniter\Model->__call('sort', Array)
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->to_word()
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#3 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-19 16:32:10 --> Class 'App\Controllers\administrator\Master_view' not found
+#0 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->to_word()
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-04-19 16:42:50 --> Undefined property: stdClass::$nama_satuan
+#0 E:\LocalServer\inventory\app\Views\administrator\master\master_read.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 47, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(259): view('administrator/m...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->read('ASST1618685294')
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:42:51 --> Undefined property: stdClass::$nama_satuan
+#0 E:\LocalServer\inventory\app\Views\administrator\master\master_read.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 47, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(259): view('administrator/m...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->read('ASST1618685294')
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:56:28 --> Undefined property: stdClass::$id
+#0 E:\LocalServer\inventory\app\Views\administrator\master\master_history_word.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 57, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(635): view('administrator/m...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history_word()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:56:31 --> Undefined property: stdClass::$id
+#0 E:\LocalServer\inventory\app\Views\administrator\master\master_history_word.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 57, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(635): view('administrator/m...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history_word()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:56:36 --> Undefined property: stdClass::$id
+#0 E:\LocalServer\inventory\app\Views\administrator\master\master_history_word.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 57, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(635): view('administrator/m...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history_word()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:57:07 --> Undefined property: stdClass::$id
+#0 E:\LocalServer\inventory\app\Views\administrator\master\master_history_word.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 57, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(635): view('administrator/m...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history_word()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:57:24 --> Undefined property: stdClass::$id
+#0 E:\LocalServer\inventory\app\Views\administrator\master\master_history_word.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 57, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(635): view('administrator/m...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history_word()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:59:20 --> Undefined property: stdClass::$id
+#0 E:\LocalServer\inventory\app\Views\administrator\master\master_history_word.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 57, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(635): view('administrator/m...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history_word()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 16:59:41 --> Undefined property: stdClass::$id_master
+#0 E:\LocalServer\inventory\app\Views\administrator\master\master_history_word.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\LocalServer\\...', 56, Array)
+#1 E:\LocalServer\inventory\system\View\View.php(220): include('E:\\LocalServer\\...')
+#2 E:\LocalServer\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\LocalServer\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(635): view('administrator/m...', Array)
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history_word()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-19 17:00:11 --> Class 'App\Controllers\administrator\Master_history_model' not found
+#0 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->history_word()
+#1 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#2 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-04-19 18:39:00 --> mysqli_sql_exception: Unknown column 'nama_satuan' in 'where clause' in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\LocalServer\inventory\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 E:\LocalServer\inventory\app\Models\Vendor_model.php(49): CodeIgniter\BaseModel->first()
+#7 E:\LocalServer\inventory\app\Models\Master_view_excel.php(247): App\Models\Vendor_model->get_row_by('nama_satuan', 'PT.Sample1')
+#8 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(553): App\Models\Master_view_excel->import('E:\\LocalServer\\...')
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-19 18:39:00 --> Unknown column 'nama_satuan' in 'where clause'
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\LocalServer\inventory\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#6 E:\LocalServer\inventory\app\Models\Vendor_model.php(49): CodeIgniter\BaseModel->first()
+#7 E:\LocalServer\inventory\app\Models\Master_view_excel.php(247): App\Models\Vendor_model->get_row_by('nama_satuan', 'PT.Sample1')
+#8 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(553): App\Models\Master_view_excel->import('E:\\LocalServer\\...')
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-04-19 18:40:32 --> mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`inventory`.`master`, CONSTRAINT `fkSatuanMaster` FOREIGN KEY (`satuan`) REFERENCES `satuan_master` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\LocalServer\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\LocalServer\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\LocalServer\inventory\app\Models\Master_view_excel.php(250): CodeIgniter\Model->insert(Array)
+#8 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(553): App\Models\Master_view_excel->import('E:\\LocalServer\\...')
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-19 18:40:32 --> Cannot add or update a child row: a foreign key constraint fails (`inventory`.`master`, CONSTRAINT `fkSatuanMaster` FOREIGN KEY (`satuan`) REFERENCES `satuan_master` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\LocalServer\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\LocalServer\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\LocalServer\inventory\app\Models\Master_view_excel.php(250): CodeIgniter\Model->insert(Array)
+#8 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(553): App\Models\Master_view_excel->import('E:\\LocalServer\\...')
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-19 18:43:17 --> Tidak ada data untuk insert.
+#0 E:\LocalServer\inventory\system\BaseModel.php(1682): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 E:\LocalServer\inventory\system\BaseModel.php(719): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 E:\LocalServer\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#3 E:\LocalServer\inventory\app\Models\Master_view_excel.php(249): CodeIgniter\Model->insert(Array)
+#4 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(553): App\Models\Master_view_excel->import('E:\\LocalServer\\...')
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-04-19 18:48:28 --> mysqli_sql_exception: Field 'nama' doesn't have a default value in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\LocalServer\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\LocalServer\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\LocalServer\inventory\app\Models\Master_view_excel.php(272): CodeIgniter\Model->insert(Array)
+#8 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(553): App\Models\Master_view_excel->import('E:\\LocalServer\\...')
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-19 18:48:28 --> Field 'nama' doesn't have a default value
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\LocalServer\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\LocalServer\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\LocalServer\inventory\app\Models\Master_view_excel.php(272): CodeIgniter\Model->insert(Array)
+#8 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(553): App\Models\Master_view_excel->import('E:\\LocalServer\\...')
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-04-19 18:49:59 --> mysqli_sql_exception: Duplicate entry 'ASST1618685295' for key 'PRIMARY' in E:\LocalServer\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\LocalServer\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\LocalServer\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\LocalServer\inventory\app\Models\Master_view_excel.php(280): CodeIgniter\Model->insert(Array)
+#8 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(553): App\Models\Master_view_excel->import('E:\\LocalServer\\...')
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-19 18:50:00 --> Duplicate entry 'ASST1618685295' for key 'PRIMARY'
+#0 E:\LocalServer\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 E:\LocalServer\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 E:\LocalServer\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 E:\LocalServer\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 E:\LocalServer\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 E:\LocalServer\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 E:\LocalServer\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 E:\LocalServer\inventory\app\Models\Master_view_excel.php(280): CodeIgniter\Model->insert(Array)
+#8 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(553): App\Models\Master_view_excel->import('E:\\LocalServer\\...')
+#9 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-19 19:02:46 --> syntax error, unexpected '$doInsert' (T_VARIABLE), expecting ';' or ','
+#0 E:\LocalServer\inventory\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\LocalServer\\...')
+#1 E:\LocalServer\inventory\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mast...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mast...')
+#3 E:\LocalServer\inventory\app\Controllers\administrator\Master.php(552): spl_autoload_call('App\\Models\\Mast...')
+#4 E:\LocalServer\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#5 E:\LocalServer\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#6 E:\LocalServer\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\LocalServer\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}

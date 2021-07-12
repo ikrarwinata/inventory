@@ -1,0 +1,290 @@
+CRITICAL - 2021-04-28 00:43:39 --> Undefined variable: gedung
+#0 C:\wamp64\www\inventory\app\Views\administrator\master\master_form.php(90): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 90, Array)
+#1 C:\wamp64\www\inventory\system\View\View.php(220): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/m...', Array, true)
+#4 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(395): view('administrator/m...', Array)
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->update('ASST1619543157')
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#7 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 01:07:48 --> Undefined variable: data
+#0 C:\wamp64\www\inventory\app\Views\_partials\assets_empty.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 32, Array)
+#1 C:\wamp64\www\inventory\system\View\View.php(220): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\inventory\system\Common.php(1217): CodeIgniter\View\View->render('_partials/asset...', Array, true)
+#4 C:\wamp64\www\inventory\app\Controllers\Api.php(37): view('_partials/asset...', Array)
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\Api->getAssetViewEmpty()
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 01:08:01 --> Undefined variable: data
+#0 C:\wamp64\www\inventory\app\Views\_partials\assets_empty.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 32, Array)
+#1 C:\wamp64\www\inventory\system\View\View.php(220): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\inventory\system\Common.php(1217): CodeIgniter\View\View->render('_partials/asset...', Array, true)
+#4 C:\wamp64\www\inventory\app\Controllers\Api.php(37): view('_partials/asset...', Array)
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\Api->getAssetViewEmpty()
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 01:08:30 --> Undefined variable: data
+#0 C:\wamp64\www\inventory\app\Views\_partials\assets_empty.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 32, Array)
+#1 C:\wamp64\www\inventory\system\View\View.php(220): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\inventory\system\Common.php(1217): CodeIgniter\View\View->render('_partials/asset...', Array, true)
+#4 C:\wamp64\www\inventory\app\Controllers\Api.php(37): view('_partials/asset...', Array)
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\Api->getAssetViewEmpty()
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 01:09:01 --> Undefined variable: data
+#0 C:\wamp64\www\inventory\app\Views\_partials\assets_empty.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 32, Array)
+#1 C:\wamp64\www\inventory\system\View\View.php(220): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\inventory\system\Common.php(1217): CodeIgniter\View\View->render('_partials/asset...', Array, true)
+#4 C:\wamp64\www\inventory\app\Controllers\Api.php(37): view('_partials/asset...', Array)
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\Api->getAssetViewEmpty()
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#7 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 01:40:56 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\wamp64\www\inventory\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\i...')
+#1 C:\wamp64\www\inventory\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mast...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mast...')
+#3 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(608): spl_autoload_call('App\\Models\\Mast...')
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-04-28 01:46:45 --> mysqli_sql_exception: Duplicate entry 'ASST1619549205' for key 'PRIMARY' in C:\wamp64\www\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 C:\wamp64\www\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\wamp64\www\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\wamp64\www\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\wamp64\www\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\inventory\app\Models\Master_view_excel.php(322): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(609): App\Models\Master_view_excel->import('C:\\wamp64\\www\\i...')
+#9 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-28 01:46:46 --> Duplicate entry 'ASST1619549205' for key 'PRIMARY'
+#0 C:\wamp64\www\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 C:\wamp64\www\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\wamp64\www\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\wamp64\www\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\wamp64\www\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\inventory\app\Models\Master_view_excel.php(322): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(609): App\Models\Master_view_excel->import('C:\\wamp64\\www\\i...')
+#9 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2021-04-28 01:48:26 --> mysqli_sql_exception: Duplicate entry 'ASST1619549306' for key 'PRIMARY' in C:\wamp64\www\inventory\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\wamp64\www\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 C:\wamp64\www\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\wamp64\www\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\wamp64\www\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\wamp64\www\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\inventory\app\Models\Master_view_excel.php(322): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(609): App\Models\Master_view_excel->import('C:\\wamp64\\www\\i...')
+#9 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-28 01:48:26 --> Duplicate entry 'ASST1619549306' for key 'PRIMARY'
+#0 C:\wamp64\www\inventory\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `ma...')
+#1 C:\wamp64\www\inventory\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\wamp64\www\inventory\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\wamp64\www\inventory\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\wamp64\www\inventory\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\wamp64\www\inventory\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\wamp64\www\inventory\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\wamp64\www\inventory\app\Models\Master_view_excel.php(322): CodeIgniter\Model->insert(Array)
+#8 C:\wamp64\www\inventory\app\Controllers\administrator\Master.php(609): App\Models\Master_view_excel->import('C:\\wamp64\\www\\i...')
+#9 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Master->from_excel()
+#10 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Master))
+#11 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2021-04-28 13:00:05 --> Undefined variable: keyword
+#0 C:\wamp64\www\inventory\app\Views\administrator\operation\kadaluarsa.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 19, Array)
+#1 C:\wamp64\www\inventory\system\View\View.php(220): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/o...', Array, true)
+#4 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(337): view('administrator/o...', Array)
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#7 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 13:18:02 --> syntax error, unexpected '=', expecting ']'
+#0 C:\wamp64\www\inventory\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('administrator/O...')
+#1 C:\wamp64\www\inventory\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('administrator/O...')
+#2 C:\wamp64\www\inventory\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-28 13:27:57 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getGet
+#0 C:\wamp64\www\inventory\app\Controllers\Api.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 116, Array)
+#1 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\Api->barcode_image()
+#2 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-28 13:28:01 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getGet
+#0 C:\wamp64\www\inventory\app\Controllers\Api.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 116, Array)
+#1 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\Api->barcode_image()
+#2 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-28 13:28:33 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$getGet
+#0 C:\wamp64\www\inventory\app\Controllers\Api.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 116, Array)
+#1 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\Api->barcode_image()
+#2 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api))
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-04-28 13:36:03 --> Undefined variable: judul
+#0 C:\wamp64\www\inventory\app\Views\administrator\operation\barcode.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 31, Array)
+#1 C:\wamp64\www\inventory\system\View\View.php(220): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/o...', Array, true)
+#4 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(343): view('administrator/o...', Array)
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#7 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 13:58:48 --> Undefined variable: barcodejudul
+#0 C:\wamp64\www\inventory\app\Views\administrator\operation\barcode.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\i...', 33, Array)
+#1 C:\wamp64\www\inventory\system\View\View.php(220): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/o...', Array, true)
+#4 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(348): view('administrator/o...', Array)
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#7 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-04-28 14:06:10 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\inventory\system\Model.php on line 836
+#0 C:\wamp64\www\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('barcode_generat...', NULL)
+#1 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(94): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(49): App\Models\Barcode_generator_model->sort()
+#3 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(344): App\Models\Barcode_generator_model->get_row_by('judul', 'Bahan Ajar Maha...')
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-04-28 14:08:43 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\inventory\system\Model.php on line 836
+#0 C:\wamp64\www\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('barcode_generat...', NULL)
+#1 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(95): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(340): App\Models\Barcode_generator_model->sort()
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 14:09:57 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\inventory\system\Model.php on line 836
+#0 C:\wamp64\www\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('barcode_generat...', NULL)
+#1 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(95): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(340): App\Models\Barcode_generator_model->sort()
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 14:10:24 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\inventory\system\Model.php on line 836
+#0 C:\wamp64\www\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('barcode_generat...', NULL)
+#1 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(96): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(340): App\Models\Barcode_generator_model->sort()
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 14:10:32 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\inventory\system\Model.php on line 836
+#0 C:\wamp64\www\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('barcode_generat...', NULL)
+#1 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(95): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(340): App\Models\Barcode_generator_model->sort()
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 14:10:55 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\inventory\system\Model.php on line 836
+#0 C:\wamp64\www\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('barcode_generat...', NULL)
+#1 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(95): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(340): App\Models\Barcode_generator_model->sort()
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 14:11:03 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\inventory\system\Model.php on line 836
+#0 C:\wamp64\www\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('barcode_generat...', NULL)
+#1 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(95): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(340): App\Models\Barcode_generator_model->sort()
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 14:11:17 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\inventory\system\Model.php on line 836
+#0 C:\wamp64\www\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('barcode_generat...', NULL)
+#1 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(95): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(340): App\Models\Barcode_generator_model->sort()
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 14:11:44 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\inventory\system\Model.php on line 836
+#0 C:\wamp64\www\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('barcode_generat...', NULL)
+#1 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(95): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(340): App\Models\Barcode_generator_model->sort()
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 14:12:11 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::orderBy() must be of the type string, null given, called in C:\wamp64\www\inventory\system\Model.php on line 836
+#0 C:\wamp64\www\inventory\system\Model.php(836): CodeIgniter\Database\BaseBuilder->orderBy('barcode_generat...', NULL)
+#1 C:\wamp64\www\inventory\app\Models\Barcode_generator_model.php(92): CodeIgniter\Model->__call('orderBy', Array)
+#2 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(340): App\Models\Barcode_generator_model->sort()
+#3 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#4 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-04-28 14:13:27 --> Undefined property: stdClass::$judul
+#0 C:\wamp64\www\inventory\app\Views\administrator\operation\barcode.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\wamp64\\www\\i...', 42, Array)
+#1 C:\wamp64\www\inventory\system\View\View.php(220): include('C:\\wamp64\\www\\i...')
+#2 C:\wamp64\www\inventory\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\inventory\system\Common.php(1217): CodeIgniter\View\View->render('administrator/o...', Array, true)
+#4 C:\wamp64\www\inventory\app\Controllers\administrator\Operation.php(368): view('administrator/o...', Array)
+#5 C:\wamp64\www\inventory\system\CodeIgniter.php(936): App\Controllers\administrator\Operation->barcode()
+#6 C:\wamp64\www\inventory\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\administrator\Operation))
+#7 C:\wamp64\www\inventory\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\inventory\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
